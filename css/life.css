@@ -1,0 +1,215 @@
+/*预定义样式*/
+@charset "utf-8";
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,input,select,textarea,td{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑";
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+html {
+    font-size: 100px;
+}
+ul,ol,li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:0;
+    display: block;
+}
+/*推荐区*/
+/*header*/
+header {
+    height: 0.8rem;
+}
+.headerBox5 {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    position: relative;
+}
+.headerBox5>a>img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.headerBox5>div {
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    left:50%;
+    margin-left: -0.8rem;
+}
+.headerBox5>div>a>img {
+    width: 2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+/*搜索框*/
+header div.find {
+    width: 100%;
+    height: 0.8rem;
+    z-index: 999;
+    position:absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#btn011,#btn012 {
+    height: 0.5rem;
+    z-index:999;
+    font-size: 0.3rem;
+}
+#btn012 {
+    height: 0.54rem;
+}
+/*nav*/
+nav {
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+nav a {
+    font-size: 0.3rem;
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    flex:1;
+    font-family: kaiTi;
+    color: black;
+}
+nav a:hover {
+    color: red;
+}
+nav .a05 {
+    text-decoration:underline;
+    color: red;
+}
+/*banner5*/
+.banner5 {
+    width: 100%;
+}
+.banner5>img {
+    width: 100%;
+}
+/*社区热帖*/
+.hot {
+    /*height: 0.5rem;*/
+    line-height: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hot>span {
+    font-size: 0.4rem;
+    font-family: kaiTi;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 2rem;
+    line-height: 2rem;
+}
+.hot>a {
+    width: 32%;
+    margin-bottom: 0.05rem;
+    border: 1px solid gainsboro;
+}
+.hot>a>img {
+     width: 100%;
+ }
+.hot .touxiang {
+    width: 50%;
+}
+.hot>a>span {
+     width: 100%;
+     font-size: 0.16rem;
+     display: block;
+     font-family: "kaiTi";
+}
+/*视频*/
+.ship {
+    width:100%;
+    /*height: 3rem;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ship>span{
+    display: inline;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    background-color: whitesmoke;
+    font-family: kaiTi;
+    text-align: center;
+    font-size: 0.4rem;
+}
+.video1,.video2 {
+    width: 49%;
+    display: inline-block;
+    margin-top: 0.1rem;
+}
+/*测评*/
+.ceping {
+    background-color: whitesmoke;
+    margin-top: 0.1rem;
+}
+
+.ceping>span {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 0.4rem;
+    font-family: kaiTi;
+    width: 100%;
+    height:2rem;
+    background-color: whitesmoke;
+
+}
+.ceping img {
+    width: 100%;
+}
+.ce01 .span01 {
+    font-size: 0.3rem;
+    font-family: kaiTi;
+    height: 1rem;
+    line-height: 1rem;
+    display: inline-block;
+}
+.ce01 .span02 {
+    font-size: 0.24rem;
+    font-family: kaiTi;
+}
+.ceping ul {
+    margin-bottom: 0.5rem   ;
+}
+/*l-foot*/
+.l-foot {
+    width: 100%;
+    text-align: center;
+    line-height: 0.8rem;
+    margin-top: 0.5rem;
+}
+.l-foot ul li {
+    font-family: kaiTi;
+    font-size: 0.3rem;
+}

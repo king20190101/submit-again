@@ -1,0 +1,150 @@
+/*预定义样式*/
+@charset "utf-8";
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,input,select,textarea,td{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑";
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+html {
+    font-size: 100px;
+}
+ul,ol,li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:0;
+    display: block;
+}
+/*声学区*/
+/*header*/
+header {
+    height: 0.8rem;
+}
+.headerBox4 {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    position: relative;
+}
+.headerBox4>a>img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.headerBox4>div {
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    left:50%;
+    margin-left: -0.8rem;
+}
+.headerBox4>div>a>img {
+    width: 2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+/*搜索框*/
+header div.find {
+    width: 100%;
+    height: 0.8rem;
+    z-index: 999;
+    position:absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#btn011,#btn012 {
+    height: 0.5rem;
+    z-index:999;
+    font-size: 0.3rem;
+}
+#btn012 {
+    height: 0.54rem;
+}
+
+/*nav*/
+nav {
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+nav a {
+    font-size: 0.3rem;
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    flex:1;
+    font-family: kaiTi;
+    color: black;
+}
+nav a:hover {
+    color: red;
+}
+nav .a04 {
+    text-decoration:underline;
+    color: red;
+}
+/*banner4*/
+.banner4 {
+    width: 100%;
+    background-color: dodgerblue;
+}
+.banner4 a img {
+    width: 100%;
+}
+/*main*/
+.main4 {
+    margin-top: 0.3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+}
+.main4 a {
+    font-family: kaiTi;
+    font-size: 0.2rem;
+    color: dimgray;
+    width: 49%;
+    text-align: center;
+}
+.main4 a img {
+    width: 100%;
+}
+/*foot2*/
+.foot4 {
+    height: 200px;
+    background-color: gainsboro;
+}
+.foot4 .footBox4 {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 80px;
+    line-height: 80px;
+}
+.foot4 a{
+    height: 40px;
+    width: 40%;
+    line-height: 40px;
+    font-size:20px;
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 15px;
+}
